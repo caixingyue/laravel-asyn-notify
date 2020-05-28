@@ -1,0 +1,35 @@
+{
+    "name": "starrysea/asyn-notify",
+    "description": "Asynchronous notification (push) data to remote server",
+    "homepage": "https://github.com/caixingyue/laravel-asyn-notify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caixingyue",
+            "email": "917373332@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/caixingyue/laravel-asyn-notify/issues"
+    },
+    "require": {
+        "php": "^7.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "Starrysea\\AsynNotify\\": "src"
+        }
+    },
+	"autoload-dev": {
+        "psr-4": {
+            "Starrysea\\AsynNotify\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Starrysea\\AsynNotify\\AsynNotifyServiceProvider"
+            ]
+        }
+    }
+}
